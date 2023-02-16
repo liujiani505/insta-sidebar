@@ -27,7 +27,7 @@ body{
 
 .sidebar-header{
     width: 100%;
-    margin-bottom: 44px;
+    margin-bottom: 24px;
 }
 
 .logo-icon{
@@ -54,6 +54,7 @@ body{
     padding: 0 12px;
     border-radius: 24px;
     line-height: 1;
+    font-size: 17px;
 }
 
 
@@ -108,3 +109,17 @@ body{
     font-family: 'Segoe UI';
 }
 
+.sidebar button span {
+    font-size: 17px;
+}
+
+.sidebar > nav {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar > nav button:last-child {
+    margin-top: auto;
+}

@@ -46,5 +46,34 @@ body{
     cursor: pointer;
 }
 
+.sidebar button > span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 0 12px;
+    border-radius: 24px;
+    line-height: 1;
+}
 
+
+.sidebar button:hover > span :is(i, img){
+    scale: 1.05;
+}
+
+.sidebar button > span > span {
+    transition: 0.3s;
+}
+
+.sidebar button i {
+    position:relative;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.sidebar button img {
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+}
 

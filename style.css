@@ -92,3 +92,19 @@ body{
     font-size: 12px;
     font-family: 'Segoe UI';
 }
+
+.sidebar button i > em {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ff2f40;
+    position: absolute;
+    border-radius: 10px;
+    top: 2px;
+    right: -1px;
+    border: 1px solid #fff;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+}
+

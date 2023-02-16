@@ -77,3 +77,18 @@ body{
     transition: 0.2s;
 }
 
+.sidebar button i > span {
+    display: grid;
+    place-items: center;
+    height: 20px;
+    padding: 0 4px;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    border: 1px solid #fff;
+    background: #ff2f40;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+}

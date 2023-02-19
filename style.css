@@ -32,6 +32,8 @@ body{
 
 .logo-icon{
     display: none;
+    font-size: 28px;
+    text-align: center;
 }
 
 .logo-img{
@@ -122,4 +124,28 @@ body{
 
 .sidebar > nav button:last-child {
     margin-top: auto;
+}
+
+@media (width < 500px) {
+    .logo-img{
+        display: none;
+    }
+
+    .logo-icon {
+        display: block;
+    }
+
+    .sidebar{
+        width: 72px;
+    }
+
+    .sidebar button > span {
+        width: 50%;
+    }
+
+    .sidebar button > span > span {
+        opacity: 0;
+        visibility: hidden;
+    }
+
 }
